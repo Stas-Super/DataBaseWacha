@@ -6,6 +6,7 @@ using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -18,20 +19,32 @@ namespace DataBase_Weycher
 		{
 			InitializeComponent();
 		}
+		public void DataBaseWotch()
+		{
+			try
+			{
+				string connectionString = $"Initial Catalog={textBox1.Text};Integrated Security=True";
+				connection = new SqlConnection(connectionString);
+				connection.Open();
+				comboBox1.Items.Clear();
 
+				string query = "select * from sys.Tables;";
+				SqlCommand cmd = new SqlCommand(query, connection);
+				SqlDataReader dr = cmd.ExecuteReader();
+				while (dr.Read())
+					comboBox1.Items.Add(dr[0]);
+				dr.Close();
+			}
+			catch (SqlException)
+			{
+
+				MessageBox.Show("Данной базы не существует");
+			}
+		}
 		private void button1_Click(object sender, EventArgs e)
 		{
-			string connectionString = $"Initial Catalog={textBox1.Text};Integrated Security=True";
-			connection = new SqlConnection(connectionString);
-			connection.Open();
-			comboBox1.Items.Clear();
-
-			string query = "select * from sys.Tables;";
-			SqlCommand cmd = new SqlCommand(query, connection);
-			SqlDataReader dr = cmd.ExecuteReader();
-			while (dr.Read())
-				comboBox1.Items.Add(dr[0]);
-			dr.Close();
+			Thread thread = new Thread(DataBaseWotch);
+			thread.Start();
 		}
 
 		private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)

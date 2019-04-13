@@ -8,3 +8,13 @@ C:\Users\MSI\Desktop\DataBase_Weycher\DataBase_Weycher\obj\Debug\DataBase_Weyche
 C:\Users\MSI\Desktop\DataBase_Weycher\DataBase_Weycher\obj\Debug\DataBase_Weycher.csproj.CoreCompileInputs.cache
 C:\Users\MSI\Desktop\DataBase_Weycher\DataBase_Weycher\obj\Debug\DataBase_Weycher.exe
 C:\Users\MSI\Desktop\DataBase_Weycher\DataBase_Weycher\obj\Debug\DataBase_Weycher.pdb
+C:\Users\MSI\Documents\GitHub\DataBaseWacha\DataBase_Weycher\bin\Debug\DataBase_Weycher.exe.config
+C:\Users\MSI\Documents\GitHub\DataBaseWacha\DataBase_Weycher\bin\Debug\DataBase_Weycher.exe
+C:\Users\MSI\Documents\GitHub\DataBaseWacha\DataBase_Weycher\bin\Debug\DataBase_Weycher.pdb
+C:\Users\MSI\Documents\GitHub\DataBaseWacha\DataBase_Weycher\obj\Debug\DataBase_Weycher.csprojAssemblyReference.cache
+C:\Users\MSI\Documents\GitHub\DataBaseWacha\DataBase_Weycher\obj\Debug\DataBase_Weycher.Form1.resources
+C:\Users\MSI\Documents\GitHub\DataBaseWacha\DataBase_Weycher\obj\Debug\DataBase_Weycher.Properties.Resources.resources
+C:\Users\MSI\Documents\GitHub\DataBaseWacha\DataBase_Weycher\obj\Debug\DataBase_Weycher.csproj.GenerateResource.cache
+C:\Users\MSI\Documents\GitHub\DataBaseWacha\DataBase_Weycher\obj\Debug\DataBase_Weycher.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Documents\GitHub\DataBaseWacha\DataBase_Weycher\obj\Debug\DataBase_Weycher.exe
+C:\Users\MSI\Documents\GitHub\DataBaseWacha\DataBase_Weycher\obj\Debug\DataBase_Weycher.pdb
